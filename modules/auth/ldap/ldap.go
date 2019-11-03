@@ -475,5 +475,5 @@ func (ls *Source) SearchEntries() ([]*SearchResult, error) {
 		results = append(results, result)
 	}
 
-	return result, nil
+	return results, nil
 }
